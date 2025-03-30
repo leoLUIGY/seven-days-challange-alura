@@ -1,0 +1,13 @@
+@import url('./style/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('./style/Header.css');
+
+:root{
+    --font-principal: "Inter", sans-serif;
+    --gray: #667085;
+
+}
+*{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
