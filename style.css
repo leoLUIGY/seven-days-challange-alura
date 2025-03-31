@@ -5,9 +5,50 @@
 :root{
     --font-principal: "Inter", sans-serif;
     --gray: #667085;
+    --main-color: #8E2424;
 
 }
 *{
     box-sizing: border-box;
     background-color: #FFFFFF;
+}
+.container
+{
+    /* background-color: rgb(137, 97, 44); */
+    height:89vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 25% 0 25%;
+}
+
+.container__about{
+    /* background-color: #667085; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10%;
+}
+
+.container__about > span{
+    font-family: var(--font-principal);
+    font-size: 1rem;
+    font-weight: 600;
+    color:var(--main-color); 
+}
+
+.container__about > h1{
+    font-family: var(--font-principal);
+    font-size:3rem;
+    font-weight: 600;
+    color: #101828;
+}
+
+.container__about > p{
+    font-family: var(--font-principal);
+    font-size:1.2rem;
+    font-weight: 400;
+    color: var(--gray);
+    line-height: 1.5;
 }
