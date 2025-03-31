@@ -15,10 +15,10 @@
 .container
 {
     /* background-color: rgb(137, 97, 44); */
-    height:89vh;
+    height:88.2vh;
     display: flex;
     flex-direction: column;
-    padding: 1% 25% 0 25%;
+    padding: 2% 25% 0 25%;
 }
 
 .container__about{
