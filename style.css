@@ -150,9 +150,9 @@ body{
 
 .container__talent-job{
       /* background-color: rgb(137, 97, 44); */
-      height:100vh;
+      /* height:100vh; */
       display: flex;
-      padding: 1% 25% 10% 25%;
+      padding: 1% 25% 1.5% 25%;
      
       /* align-items: center; */
       flex-direction: column;
@@ -204,4 +204,74 @@ body{
     font-size: 1rem;
     font-weight: 500;
     gap:2rem;
+}
+
+
+
+.container__Info{
+    padding: 1% 6.63% 10% 6.63%;
+}
+
+
+.container__Info-Content
+{
+    background-color:  #C3191908;
+    padding: 4rem 5rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 25.25rem;
+    font-family: var(--font-principal);
+}
+
+.container__Info-Content-title{
+    font-weight: 600;
+    font-size: 0.85rem;
+  
+    color: var(--main-color);
+    text-align: center;
+    background-color: transparent;
+}
+
+.container__Info-Content-desc{
+    font-weight: 500;
+    font-size: 2.25rem;
+    text-align: center;
+    color: var(--gray-dark);
+    background-color: transparent;
+}
+
+.container__Info-Content > div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 7.5rem;
+    background-color: transparent;
+
+} 
+
+.container__Info-Content img{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 12.5rem;
+}
+
+.container__Info-Content-name{
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--gray-dark);
+}
+
+.container__Info-Content-name-desc{
+    font-weight: 400;
+    font-size: 0.85rem;
+    text-align: center;
+    color: var(--gray);
+
 }
