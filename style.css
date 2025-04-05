@@ -13,15 +13,14 @@
     box-sizing: border-box;
     background-color: #FFFFFF;
 }
-body{
-    padding: 0 1%;
-}
+
 .container
 {
     /* background-color: rgb(137, 97, 44); */
     height:88.2vh;
     display: flex;
     flex-direction: column;
+    padding: 0 1%;
     /* padding: 2% 25% 0 25%; */
 }
 
@@ -107,6 +106,7 @@ body{
      align-items: center;
      flex-direction: column;
      gap: 1.2em;
+     padding: 0 1%;
      /* padding: 2% 25% 0 25%; */
 }
 
@@ -152,7 +152,7 @@ body{
       /* background-color: rgb(137, 97, 44); */
       /* height:100vh; */
       display: flex;
-      padding: 1% 25% 1.5% 25%;
+      padding: 1% 26% 1.5% 26%;
      
       /* align-items: center; */
       flex-direction: column;
@@ -209,7 +209,7 @@ body{
 
 
 .container__Info{
-    padding: 1% 6.63% 10% 6.63%;
+    padding: 1% 7.63% 10% 7.63%;
 }
 
 
@@ -274,4 +274,80 @@ body{
     text-align: center;
     color: var(--gray);
 
+}
+
+.footer
+{
+    height: 26rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #C3191908;
+    padding: 5% 0 5% 0;
+    font-family: var(--font-principal);
+}
+
+.footer__container
+{
+    height: 10rem;
+   
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    background-color: transparent;
+}
+
+.footer__container > h2{
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--gray-dark);
+    background-color: transparent;
+    margin-bottom: 4%;
+}
+
+.footer__container-desc
+{
+    font-weight: 400;
+    font-size: 1.15rem;
+    color:var(--gray);
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+
+.footer__container-register{
+    display: flex;
+    gap:1rem;
+}
+
+.footer__container-register > input{
+    padding: 0.85rem 0.65rem;
+    width: 22.5rem;
+    border: 1px solid var(--gray);
+    border-radius: 0.5rem;
+}
+
+.footer__container-register > input::placeholder{
+    font-family: var(--font-principal);
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.footer__container-register > button{
+    background-color: var(--main-color);
+    font-family: var(--font-principal);
+    color: white;
+    border: 1px solid var(--gray);
+    border-radius: 0.5rem;
+    padding: 0.65rem 1.1rem;
+}
+.footer__container-copyright
+{
+    font-weight: 400;
+    font-size: 1rem;
+    color:var(--gray);
+    text-align: center;
 }
